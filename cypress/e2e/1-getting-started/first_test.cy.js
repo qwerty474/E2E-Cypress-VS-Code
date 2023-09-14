@@ -7,6 +7,7 @@
 context('Actions', () => {
   beforeEach(() => {
     cy.visit('https://example.cypress.io')
+    
   })
 
   describe('Check page behaviour', () => it('finds the content "type"', () => {
